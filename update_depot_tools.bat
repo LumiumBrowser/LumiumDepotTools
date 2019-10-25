@@ -21,7 +21,7 @@ SHIFT
 
 IF EXIST "%DEPOT_TOOLS_DIR%.disable_auto_update" GOTO :EOF
 
-set GIT_URL=https://chromium.googlesource.com/chromium/tools/depot_tools.git
+set GIT_URL=https://github.com/LumiumBrowser/LumiumDepotTools.git
 
 :: Will download git and python.
 call "%DEPOT_TOOLS_DIR%bootstrap\win_tools.bat"
